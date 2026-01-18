@@ -1,7 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://nishantguvvada:lMjNtGBsDaHyzsHk@cluster0.gon8jn3.mongodb.net/practice-mongo');
+mongoose.connect('');
 
 const User = mongoose.model('User', {
     username: { type: String, required: true },
